@@ -12,12 +12,12 @@ func welcome(w http.ResponseWriter, req *http.Request) {
 	}
 
 	if c.Value == "Cookie Is Not Active" {
-		err = tpl.ExecuteTemplate(w, "welcome.gohtml", nil)
+		err = tpl.ExecuteTemplate(w, "welcome.html", nil)
 		if err != nil {
 			http.Error(w, "We are not sure what happened!", http.StatusNotFound)
 		}
 	} else {
-		err = tpl.ExecuteTemplate(w, "welcome.gohtml", c)
+		err = tpl.ExecuteTemplate(w, "welcome.html", c)
 		if err != nil {
 			http.Error(w, "We are not sure what happened!", http.StatusNotFound)
 		}

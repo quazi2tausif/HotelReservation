@@ -1,0 +1,134 @@
+
+*{
+    margin: 0px;
+}
+
+/*-------------Footer-Box-------------------*/
+.footer{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	border: 3px solid #ccc;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*--------------Left-Footer------------------*/
+
+.footer .footer-left{
+	width: 30%;
+}
+
+.footer-left h3{
+	color:  #ffffff;
+	font: normal 36px 'oswald', cursive;
+	margin: 0;
+}
+
+.footer-left h3 span{
+	color:  #5383d3;
+}
+
+.footer .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/*---------------Center-Footer------------------------*/
+
+.footer .footer-center{
+	width: 45%;
+}
+
+.footer .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+/*----------Right-Footer--------------*/
+
+.footer .footer-right{
+	width: 20%;
+}
+
+.footer .footer-icons{
+	margin-top: 25px;
+}
+
+.footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/*------------Mobile-Device--------------*/
+@media (max-width: 320px) {
+
+    .footer{
+		font: bold 12px sans-serif;
+		padding: 45px 40px;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right{
+		width: 100%;
+		padding: 15px;
+    }
+
+    .footer .footer-center i{
+        margin-left: 0px;
+	}
+}
