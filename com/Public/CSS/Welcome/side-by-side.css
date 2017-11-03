@@ -1,0 +1,68 @@
+div.side-by-side {
+    background-color: #292c2f;
+    padding: 15px;
+    color: white;
+    font-family: oswald ,sans-serif;
+    font-size: 20px;
+    border: 3px solid #ccc;
+}
+
+div.side-by-side-gallery {
+    border: 3px solid #ccc;
+    border-radius: 20px;
+}
+
+div.side-by-side-gallery img{
+    border-radius: 20px;
+}
+
+div.side-by-side-gallery:hover {
+    border: 1px solid #777;
+}
+
+div.side-by-side-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.side-by-side-state {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div.side-by-side-country {
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.side-by-side-img {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .side-by-side-img {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .side-by-side-img {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
